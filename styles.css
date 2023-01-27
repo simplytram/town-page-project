@@ -1,0 +1,190 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #1E1E1E;
+}
+
+#hero {
+    background-image: url("images/amsterdam-background.jpg");
+    background-size: 100% 100%;;
+    padding-top: 250px;
+    padding-right: 405px;
+    height: 500px;
+    width: 720px;
+    min-width: 720px;
+    max-width: 720px;
+    box-sizing: border-box;
+}
+
+.imbue-font {
+    font-family: 'Imbue', serif;
+}
+.sarala-font {
+    font-family: 'Sarala', sans-serif;
+}
+
+.hero-title {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 10px;
+    color: #FBFAF5;
+    font-size: 90px;
+    font-weight: 70;
+    background: #24232378; 
+    
+}
+
+.hero-intro {
+    width: 400px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: #FBFAF5;
+    font-weight: 10;
+    font-size: 17px;
+    background: #24232378;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+#quotes {
+    height: 500px;
+    background: white;
+    margin-top: 0;
+}
+
+#quote-one {
+    width: 200px;
+    height: 100px;
+    padding: 10px 5px;
+    background: #4D93C2;
+}
+
+.amsterdam-quote {
+    
+}
+
+#activities {
+    height: 350px;
+    width: inherit;
+    background: #25110F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.activity-title, .activity-subtitle, .activity-desc {
+    color: #FBFAF5;
+}
+
+.activity-title {
+    text-align: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    font-size: 22px;
+}
+
+.activity-subtitle {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.activity-desc {
+    font-size: 14px;
+    text-align: center;
+}
+
+.activity {
+    width: 120px;
+    max-height: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    transition: transform .2s;
+    
+}
+
+.activity:hover {
+    transform: scale(1.2);
+}
+
+.one {
+    margin-top: 32px;
+}
+
+.two {
+    margin-top: 46px;
+}
+
+.three {
+    margin-top: 32px;
+}
+
+.activity-photo {
+    width: 120px;
+    border-radius: 100%;
+    
+}
+
+h3 {
+    margin: 0;
+}
+
+#guide {
+    height: 500px;
+    max-height: 500px;
+    clear: both;
+    background: #FBFAF5;
+    margin: 0;
+}
+
+#guide-container {
+    background: #bda47c;
+    width: 470px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 7px 5px #594943;
+}
+
+#guide-intro {
+    font-size: 30px;
+    padding: 20px;
+}
+
+#guide-photo-div {
+    margin: auto 10px;
+}
+
+#guide-photo {
+    width: 200px;
+    border: 5px solid ;
+    border-radius: 7px;
+}
+
+#guide-name {
+    font-size: 25px;
+}
+
+#guide-quote {
+    width: 180px;
+}
